@@ -1,6 +1,9 @@
 <template>
   <div class="flex flex-col">
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <div class="flex flex-row justofy-center items-center">
+      <img src="/hamburger.png" class="mx-4 h-10 flex" />
+      <h1 class="text-xl font-bold">YOLO</h1>
+    </div>
   </div>
 </template>
 <script setup lang="ts">
