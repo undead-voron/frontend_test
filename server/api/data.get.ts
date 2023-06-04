@@ -1,3 +1,3 @@
-import menu from './menu.json';
+import menu from '../../assets/menu.json';
 
 export default defineEventHandler(() => ({ body: menu }));

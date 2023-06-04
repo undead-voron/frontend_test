@@ -4,7 +4,7 @@ module.exports = {
     browser: true,
     node: true
   },
-  extends: ['plugin:vue/vue3-recommended', 'plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended', 'plugin:prettier-vue/recommended', 'prettier'],
+  extends: ['plugin:vue/vue3-recommended', 'plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended', 'plugin:prettier-vue/recommended', 'prettier', "plugin:tailwindcss/recommended"],
   plugins: ['@typescript-eslint', 'prettier', 'eslint-plugin-import'],
   parser: 'vue-eslint-parser',
   parserOptions: {
