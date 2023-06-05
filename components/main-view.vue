@@ -32,6 +32,7 @@
 </template>
 <script lang="ts" setup>
 import ChipElement from '~/components/chip-element.vue';
+import menuController from '~/composables/useMenuController';
 import type { MenuList } from '~/types/MenuList';
 
 const props = defineProps<{ menu: MenuList }>();
