@@ -1,6 +1,6 @@
 import { Ref } from 'vue';
 
-import ingredientsController from '~/composables/ingredientsController';
+import ingredientsController from '~/composables/useIngredientsController';
 import type { Ingredient } from '~/types/Ingredient';
 import type { MenuList } from '~/types/MenuList';
 

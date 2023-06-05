@@ -1,6 +1,6 @@
 import { ref, computed, unref, Ref, UnwrapRef } from 'vue';
 
-import menuItemController from '~/composables/menuItemController';
+import menuItemController from '~/composables/useMenuItemController';
 import { MenuList } from '~/types/MenuList';
 
 export default (
@@ -19,7 +19,7 @@ export default (
   const items = ref<ReturnType<typeof menuItemController>[]>([]);
   const hasMenuItem = computed(() => !!items.value.length);
   const lastMenuItem = computed(() => items.value[items.value.length - 1]);
-  const isLastElementComplited = computed(() => lastMenuItem.value?.done);
+  const isLastElementComplited = computed(() => !!lastMenuItem.value?.done);
 
   const addMenuItem = (itemName: keyof MenuList['Menu-Item']): void => {
     const item = menuItemController(itemName, menu['Menu-Item'][itemName]);

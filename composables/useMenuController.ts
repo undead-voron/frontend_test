@@ -1,7 +1,7 @@
 import { ref, computed, Ref, unref, UnwrapRef } from 'vue';
 
-import menuItemController from '~/composables/menuItemController';
-import menuItemsController from '~/composables/menuItemsController';
+import menuItemController from '~/composables/useMenuItemController';
+import menuItemsController from '~/composables/useMenuItemsController';
 import type { MenuList } from '~/types/MenuList';
 
 export default (
