@@ -4,7 +4,7 @@
       <img src="/hamburger.png" class="mx-4 flex h-4" />
       <span class="text-white">YOLO</span>
     </header>
-    <div class="flex h-full w-full flex-row bg-white/75 md:items-center">
+    <div class="flex h-full w-full flex-row justify-center bg-white/75 md:items-center">
       <nuxt-page class="mx-2 mt-5 max-w-6xl grow md:items-center md:justify-center" />
     </div>
   </div>
