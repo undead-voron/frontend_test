@@ -60,3 +60,6 @@ Thumbs.db
 #stories
 .eslintrc.js
 
+
+# playwright report 
+playwright-report/
